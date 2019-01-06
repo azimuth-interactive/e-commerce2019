@@ -1,0 +1,373 @@
+@charset "utf-8";
+html { overflow-y: scroll; }
+
+#bodyhome {
+	background-color: #FFF;
+}
+#bodysite {
+	background-color: #FFF;
+	background-image: url(images/bg-204.gif);
+	background-repeat: repeat-y;
+}
+
+
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+/* CSS Document */
+
+#topbanner {
+	width: 100%;
+	height: 90px;
+	padding-top: 0px;
+	white-space: nowrap;
+	background-color: #0D1C21;
+}
+
+
+
+#azlogo {
+	margin-right: 37px;
+	margin-left: 37px;
+	display: inline;
+	vertical-align: top;
+}
+
+#title-ecommerce {
+	margin-right: 92px;
+	margin-left: 72px;
+	display: inline;
+	vertical-align: center;
+}
+
+#title-authors {
+	display: inline;
+	vertical-align: top;
+	margin-top: 13px;
+}
+
+#topnav {
+	background-color: #98CC64;
+	white-space: nowrap;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	height: 26px;
+}
+#topnav img {
+	margin: 0px;
+	padding: 0px;
+}
+
+
+#topnavsearchform {
+	display: inline;
+}
+#topnavsubmit {
+
+}
+#searchtextbox {
+	font: 10px/9px Verdana, Geneva, sans-serif;
+	height: 15px;
+	width: 92px;
+	color: #333;
+	display: inline;
+	margin: 3px 0px 0px;
+	padding: 0px;
+	vertical-align: top;
+}
+#sidebar {
+	font: bold 12px Verdana, Geneva, sans-serif;
+	color: #000;
+	width: 180px;
+	margin-left: 10px;
+	margin-top: 10px;
+	float: left;
+}
+#displaychapterarea {
+}
+.displaychaptertitle {
+	color: #666;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 13px;
+	font-weight: bold;
+	position: absolute;
+	left: 220px;
+	top: 125px;
+}
+
+
+#sidebar p {
+	margin: 5px 0px 0px;
+	padding: 0px;
+}
+#sidebar #chaptitle {
+	line-height: 19px;
+	margin-bottom: 15px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 15px;
+	font-weight: bold;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#sidebar #chapnumber {
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-weight: bold;
+	color: #FFF;
+	margin-left: 10px;
+}
+
+
+#sidebar .chaplink {
+	color: #FFF;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+}
+.chaplink a:link {
+	color: #FFF;
+}
+.chaplink a:visited {
+	color: #FFF;
+}
+.chaplink a:hover {
+	color: #26aede;
+}
+.chaplink a:active {
+	color: #26aede;
+}
+#sidebar #resources {
+	text-transform: uppercase;
+	color: #252120;
+	letter-spacing: 3px;
+	text-align: center;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+#sidebar .hr {
+	border-top: 7px dotted #FFF;
+	margin-bottom: 15px;
+}
+#sidebar .resourcelink {
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+
+#sidebar .hr hr{
+	display: none;
+}
+#sidebar #resourceblock {
+	position: absolute;
+	width: 162px;
+	padding-left: 10px;
+}
+#sidebar #resourceblock #resourcelist {
+	background-color: #CCC;
+	padding: 5px;
+	border: 7px solid #FFF;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+
+.resourcelink a:link {
+	color: #252120;
+}
+.resourcelink a:visited {
+	color: #252120;
+}
+.resourcelink a:hover {
+	color: #26aede;
+}
+.resourcelink a:active {
+	color: #26aede;
+}
+#sub0  {
+	display: none;
+}
+#sub1  {
+	display: none;
+}
+#sub2  {
+	display: none;
+}
+#sub3  {
+	display: none;
+}
+#sub4  {
+	display: none;
+}
+#sub5  {
+	display: none;
+}
+#sub6  {
+	display: none;
+}
+#sub7  {
+	display: none;
+}
+#sub8  {
+	display: none;
+}
+#sub9  {
+	display: none;
+}
+#sub10  {
+	display: none;
+}
+#sub11  {
+	display: none;
+}
+#sub12  {
+	display: none;
+}
+#maincontent {
+	font: 12px/16px Verdana, Geneva, sans-serif;
+	position: absolute;
+	left: 235px;
+	top: 130px;
+	width: 80%;
+}
+
+
+#maincontent h1 {
+	font-weight: bolder;
+	font-size: 18px;
+	font-family: Verdana, Geneva, sans-serif;
+	color: #26aede;
+}
+#maincontent h2 {
+	line-height: 22px;
+	font-weight: bold;
+	font-size: 16px;
+	font-family: Verdana, Geneva, sans-serif;
+	color: #252120;
+	margin-top: 24px;
+}
+#maincontent #chapterinfo p.CI-chapnum   {
+	font-weight: bolder;
+	font-size: 16px;
+	font-family: Verdana, Geneva, sans-serif;
+	color: #26aede;
+	margin: 0px;
+}
+#maincontent #chapterinfo p.CI-chaptitle    {
+	line-height: 22px;
+	font-weight: bold;
+	font-size: 16px;
+	font-family: Verdana, Geneva, sans-serif;
+	color: #252120;
+	margin: 0px;
+}
+#maincontent #chapterinfo p.CI-chaplinks   {
+	line-height: 22px;
+	font-weight: normal;
+	font-size: 14px;
+	font-family: Verdana, Geneva, sans-serif;
+	color: #252120;
+	margin: 0px;
+}
+#maincontent h3 {
+	font: bold 14px/22px Verdana, Geneva, sans-serif;
+	color: #252120;
+	margin-top: 24px;
+}
+#maincontent #TOC {
+	padding: 0px;
+	line-height: 24px;
+	margin: 0px;
+}
+
+
+#maincontent p {
+	width: 90%;
+}
+.last {
+	margin-bottom: 36px;
+}
+
+#maincontent ul li {
+	margin-bottom: 10px;
+	width: 90%;
+}
+#maincontent ol li {
+	margin-bottom: 10px;
+	width: 90%;
+}
+
+#copyright {
+	font: bold 10px Verdana, Geneva, sans-serif;
+	color: #A32380;
+	text-align: left;
+	margin-top: 50px;
+}
+img.bookCover {
+	float: left;
+	margin: 4px 20px 4px 4px;
+	border: 1px solid #999;
+}
+
+img.floatLeft {
+	float: left;
+	margin: 4px 10px 4px 4px;
+}
+#bodyhome #maincontent .homepage ul{
+	margin-left: 50px;
+	position: relative;
+}
+
+img.floatRight { 
+    float: right; 
+    margin: 4px; 
+}
+#bodyhome #homecontent ul li {
+	margin-left: 20px;
+}
+
+#homecontent {
+	font: 12px/22px Verdana, Geneva, sans-serif;
+	position: absolute;
+	left: 200px;
+	top: 150px;
+}
+#bodyhome #homecontent ul {
+	margin-left: 250px;
+}
+
+#homecontent h1 {
+	font: bolder 24px Verdana, Geneva, sans-serif;
+	color: #26aede;
+}
+
+#homecontent  #bookcover  {
+	padding: 10px 25px 10px 0px;
+	float: left;
+}
+.indented {
+	padding-left: 25px;
+}
+#container {
+	width: 100%;
+}
+.temp {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 50px;
+	color: #333;
+
+}
+.nobr {
+	white-space: nowrap;
+}
+#maincontent #chapterinfo {
+	/*background-color: #EF9EA0;*/
+	width: 100%;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
